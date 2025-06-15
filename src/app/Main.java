@@ -1,13 +1,19 @@
 package app;
 
+import app.jogos.Forca;
+
 public class Main {
 
 	public static void main(String[] args) {
+//		
+		Forca forca = new Forca();
+		forca.jogoForca();
+//
+//		Velha velha = new Velha();
+//		velha.jogoVelha();
 
-//		Jogo jogo = new Jogo();
-//		jogo.jogo();
-		
-		Forca.jogoForca();
+//		BatalhaNaval naval = new BatalhaNaval();
+//		naval.jogoBatalhaNaval();
 	}
 
 }

@@ -1,10 +1,10 @@
-package app;
+package app.jogos;
 
 import java.util.Scanner;
 
-public class Jogo {
+public class Velha {
 	private static final Scanner scan = new Scanner(System.in);
-	public static void jogo() {
+	public static void jogoVelha() {
 		//tabuleiro
 		String[][] tabuleiro = {
 				{" ","A","B","C"},
